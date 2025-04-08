@@ -1,0 +1,230 @@
+(footprint "CONN-SMD_3P-P1.00_WAFER-SH1.0-3PWB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.7 0)
+		(layer "F.SilkS")
+		(uuid "3abe24a1-6103-4d02-acd9-b10eb87880e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-SMD_3P-P1.00_WAFER-SH1.0-3PWB"
+		(at 0 5.7 0)
+		(layer "F.Fab")
+		(uuid "71f9dccc-754e-4dea-ba46-4a789c619de3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec0e6891-7361-4725-9dfe-1f05e6d38ddd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a2dc9d15-1626-40e5-b9d0-8a1e414e5035")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8996b1f1-6255-4e55-a32a-ad2e1557e821")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.68 -1.35)
+		(end -2.68 0.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0a02a55e-a368-4d42-b4cd-53c0f7681d3e")
+	)
+	(fp_line
+		(start -1.48 -1.35)
+		(end -2.68 -1.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2aad0d09-aa1f-4e2d-ae0e-743f67cec20e")
+	)
+	(fp_line
+		(start -1.27 2.95)
+		(end 1.27 2.95)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b5d428d6-12f1-4aca-8cf4-3d688bb21c84")
+	)
+	(fp_line
+		(start -0.48 -1.35)
+		(end -0.52 -1.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d18abdaf-8efb-490a-ac2e-a39df8c91261")
+	)
+	(fp_line
+		(start 0.52 -1.35)
+		(end 0.48 -1.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5c1686d-9952-4b84-9977-df23ad7b0e89")
+	)
+	(fp_line
+		(start 1.52 -1.35)
+		(end 1.48 -1.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "abfe2e75-670a-4953-904c-7b741620f9b3")
+	)
+	(fp_line
+		(start 1.52 -1.35)
+		(end 2.67 -1.35)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "67240618-6900-4782-8c5b-d6c42aac1562")
+	)
+	(fp_line
+		(start 2.67 -1.35)
+		(end 2.67 0.22)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8e05ec07-db59-452d-b36e-16b81a8126c4")
+	)
+	(fp_circle
+		(center -1.89 -2.05)
+		(end -1.62 -2.05)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "954ccb1b-22fe-4884-89f6-b97e886b3938")
+	)
+	(fp_circle
+		(center -1 -2.05)
+		(end -0.8 -2.05)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "eb9c30b3-42c8-4632-a534-35c4a7a8579a")
+	)
+	(fp_circle
+		(center -2.68 -2.1)
+		(end -2.65 -2.1)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "e51f5028-8d78-4cde-8f4f-f430c660aa36")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "765aa261-5b08-4ae3-893d-02733bcecf86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 -1.7)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e6dd574c-3876-4bf3-b543-b1dc675ff266")
+	)
+	(pad "2" smd rect
+		(at 0 -1.7)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ba049bc-e100-40ce-9f34-7890ec1eb5fd")
+	)
+	(pad "3" smd rect
+		(at 1 -1.7)
+		(size 0.5 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9ac7865a-0211-47b7-9e44-3386af6b5fae")
+	)
+	(pad "4" smd rect
+		(at -2.1 1.7)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1bfe4d46-f38d-4dab-bff8-6f1e68e932d8")
+	)
+	(pad "5" smd rect
+		(at 2.1 1.7)
+		(size 1.2 2.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "13648dc3-7e54-4c47-a61a-1bb03ce72fcb")
+	)
+	(model "${KIPRJMOD}/3dmodels/CONN-SMD_3P-P1.00_WAFER-SH1.0-3PWB.wrl"
+		(offset
+			(xyz -0 -0.44 3)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

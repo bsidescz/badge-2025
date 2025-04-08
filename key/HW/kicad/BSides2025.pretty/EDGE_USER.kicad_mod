@@ -1,0 +1,204 @@
+(footprint "EDGE_USER"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 6.35 3.81 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "3b848d3e-7f67-4b3f-95f3-04b08450d6c1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EDGE_USER"
+		(at 7.62 1.27 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4e8857b8-bafa-4677-850a-67507c9a1c57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a69105bc-612d-4119-a44a-a59fb5967fdd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "945d7ed1-ebe5-4a48-8b9f-187eea7b377d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f52e983-8779-4f05-ba29-09217b0d8853")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0 -7.62) (xy 15.24 -7.62) (xy 15.24 0) (xy 0 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "B.Mask")
+		(uuid "90e287a0-7cb4-4b53-b5b5-ba7831d0f739")
+	)
+	(fp_poly
+		(pts
+			(xy 0 -7.62) (xy 15.24 -7.62) (xy 15.24 0) (xy 0 0)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.Mask")
+		(uuid "21724389-209e-4398-9484-6d7d5d8a3f08")
+	)
+	(fp_line
+		(start 0 -8.89)
+		(end 15.24 -8.89)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "65c7ce7a-40a1-45c1-a287-343c407791b9")
+	)
+	(fp_line
+		(start 0 0)
+		(end 0 -8.89)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7c190f15-88bf-415c-a46b-98d2cb7900c8")
+	)
+	(fp_line
+		(start 0 0)
+		(end 15.24 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "7fd13499-6b57-4247-8689-1890d4986a1e")
+	)
+	(fp_line
+		(start 15.24 -8.89)
+		(end 15.24 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "dbf67690-b6b9-4499-859d-b82b1628b6db")
+	)
+	(pad "A1" smd rect
+		(at 2.54 -3.81)
+		(size 1.524 8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "f7d8f8f2-0469-41f6-9746-28db45fcafa0")
+	)
+	(pad "A2" smd rect
+		(at 5.08 -3.81)
+		(size 1.524 8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "59bab39a-4f7e-46aa-890b-6c6591cc824c")
+	)
+	(pad "A3" smd rect
+		(at 7.62 -3.81)
+		(size 1.524 8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "80eb682d-e429-40de-ac52-1e25f2542ce0")
+	)
+	(pad "A4" smd rect
+		(at 10.16 -3.81)
+		(size 1.524 8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "01970d29-f42d-4280-9c49-5bfd0c6e6fa5")
+	)
+	(pad "A5" smd rect
+		(at 12.7 -3.81)
+		(size 1.524 8)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "71ac680f-6323-4d3a-a21f-1ca788a9e2c2")
+	)
+	(pad "B1" smd rect
+		(at 2.54 -3.81)
+		(size 1.524 8)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "244ba099-8f95-4d8f-9b53-0e5bde2e90f5")
+	)
+	(pad "B2" smd rect
+		(at 5.08 -3.81)
+		(size 1.524 8)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "e0a38595-c462-4c4e-a6ca-8437fa38cd94")
+	)
+	(pad "B3" smd rect
+		(at 7.62 -3.81)
+		(size 1.524 8)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "db9e351e-f38b-4e5d-8152-c5a06db1b19e")
+	)
+	(pad "B4" smd rect
+		(at 10.16 -3.81)
+		(size 1.524 8)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "651bf93d-5ef4-4159-808d-307c9b15599c")
+	)
+	(pad "B5" smd rect
+		(at 12.7 -3.81)
+		(size 1.524 8)
+		(layers "B.Cu" "B.Paste" "B.Mask")
+		(thermal_bridge_angle 45)
+		(uuid "49481488-6a56-4eef-adca-63834e26733f")
+	)
+)
